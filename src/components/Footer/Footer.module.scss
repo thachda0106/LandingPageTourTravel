@@ -1,0 +1,40 @@
+.Footer_container{
+    margin-top: 200px; 
+}
+
+.Footer_content{
+    display: flex ;
+    justify-content: space-between;
+
+    padding-top: 50px;
+
+    .Footer_info{
+        width: 390px ;
+        color: #848484;
+        line-height: 28px;
+    }
+}
+
+.Footer_Destinations,
+.Footer_Shop,
+.Footer_Interests{
+    li {
+        font-size: 18px ;
+        color: #848484; 
+        line-height: 38px;
+    }
+}
+
+.Footer_media{
+
+    border-top: 1px solid #C4C4C4;
+    padding-top: 50px ;
+    width: 100% ;
+    display: flex;
+    justify-content: center;
+    margin-top: 50px ;
+
+    img{
+        margin-bottom: 50px ;
+    }
+}

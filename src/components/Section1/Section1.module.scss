@@ -1,0 +1,25 @@
+.Section1_container{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 100px;
+    align-items: center;
+}
+
+.Section1_content{
+
+    width: 481px;
+    margin-left: 50px;
+    
+    h1{
+        font-size: 36px;
+        font-weight: 700;
+        font-family: 'Playfair Display';
+        margin: 0 ;
+        line-height: 50px;
+    }
+
+    p{
+        font-size: 17px;
+        color: #7D7987;
+    }
+}

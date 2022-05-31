@@ -1,0 +1,27 @@
+.header_container{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 15px;
+}
+.logo_img{
+    cursor: pointer;
+}
+.header_list_nav{
+    display: flex;
+    align-items: center;
+    width: auto;
+
+    .header_nav{
+        display: flex;
+        list-style: none;
+        gap: 35px;
+
+        .header_nav__item{
+            font-size: 15px;
+            cursor: pointer;
+        }
+    }
+}
+.header_button{
+
+}

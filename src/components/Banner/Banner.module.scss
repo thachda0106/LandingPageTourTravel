@@ -1,0 +1,22 @@
+.banner_container{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 72px;
+}
+
+.banner_content{
+    
+    h1{
+        font-size: 64px;
+        font-weight: 700;
+        font-family: 'Playfair Display';
+        margin: 0 ;
+    }
+}
+
+.banner_combobox{
+    display: flex;
+    flex-wrap: wrap ;
+    width: 500px;
+    gap: 30px;
+}

@@ -1,0 +1,103 @@
+$textcolor: #B8BECD ;
+$textcombobox : #4A4C53 ;
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700;800&display=swap');
+
+.mt47 {
+    margin-top: 47px;
+}
+.mt55{
+    margin-top: 55px;
+}
+.mt15{
+    margin-top: 15px;
+}
+
+.btn{
+    width: 132px;
+    height: 44px;
+    border: 1px solid #FB8F1D;
+    border-radius: 8px;
+    font-size: 15px;
+    cursor: pointer;
+    
+    &:hover{
+        opacity: 0.7;    
+    }
+}
+
+.btn-noborder{
+    background-color: #fff;
+    color: #FB8F1D ;
+    border: none ;
+    font-size: 17px; 
+    width: auto;
+}
+
+.btn-secondary{
+    background-color: #fff;
+    color: #FB8F1D ;
+    margin-right: 18px;
+    margin-left: 34px;
+}
+.btn-primary{
+    background-color: #FB8F1D;
+    color: #fff ;
+}
+.text {
+    color: $textcolor;
+    font-size: 15px;
+}
+
+.text_active{
+    color: #000;
+}
+
+.combobox{
+    width: 180px;
+    height: 50px ;
+    border-radius: 6px ;
+    border: 0.8px solid #AFB0B9;
+    line-height: 50px;
+    padding-left: 20px;
+    color: #4A4C53;
+}
+
+.editfont{
+    margin-left: 70px;
+    width: 10px;
+    transform: translateX(-100%);
+}
+
+.pos_relative{
+    position: relative;
+
+    div{
+        width: 230px;
+        position: absolute;
+        top : 200px ;
+        left: 0px ;
+
+        h5 {
+            font-size: 19px ;
+            margin: 0 ;
+            margin-top: 10px ;
+        }
+
+        p{
+            font-size: 15px ;
+            color: #7D7987;
+            margin: 0 ;
+            margin-top: 10px ;
+        }
+
+        button{
+            padding: 0 ;
+        }
+    }
+}
+
+ul{
+    list-style: none ;
+    padding: 0 ;
+    margin: 0 ;
+}

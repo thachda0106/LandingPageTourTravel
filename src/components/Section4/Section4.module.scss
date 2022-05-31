@@ -1,0 +1,37 @@
+.Section4_container{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    margin-top: 100px;
+    align-items: center;
+}
+
+.Section4_content{
+
+    width: 481px;
+
+    img{
+        margin-top: 80px;
+    }
+    
+    h3{
+        font-size: 36px;
+        font-weight: 700;
+        font-family: 'Playfair Display';
+        margin: 0 ;
+        line-height: 50px;
+    }
+
+    p{
+        width: 450px;
+        font-size: 18px;
+        color: #000;
+        font-weight: 400;
+    }
+
+    span{
+        font-size: 22px;
+        font-weight: bold;
+        margin-top: 12px;
+    }
+}
